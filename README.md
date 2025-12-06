@@ -20,3 +20,8 @@ To demonstrate skills in test design, execution, and bug reporting for a web app
 *   Chrome DevTools
 *   GitHub (for documentation)
 *   Microsoft Excel / Google Sheets (for matrices)
+
+## Key Finding
+During testing, a **critical security/logic flaw** was discovered: users can access the order confirmation page without completing a purchase by manually navigating to `/checkout-complete.html`. This demonstrates inadequate state validation in the checkout workflow.
+
+See detailed report: [Bug Report: Direct Access to Checkout Complete](/bug_reports/BR_01_direct_access_checkout.md)
